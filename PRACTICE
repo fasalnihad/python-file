@@ -1,0 +1,94 @@
+# n1 =int(input("enter the first number: "))
+# n2 = int(input("enter the second number: "))
+# def add_number(n1,n2):
+#     sum = n1 +n2
+#     print(sum)
+
+# add_number()
+
+# i = 1 # iniitalization
+
+# while i <= 10: # condition
+#  print("hai") # body of loop
+#  i =i+1 # updation statement
+
+# i = 1
+# while i <= 100:
+#     print(i)
+#     i = i + 1
+
+# i = 1
+# while i <= 100:
+#     print(i)
+#     i = i + 2
+
+# prime number or not
+
+# i =int(input("enter the number"))
+
+# while i % 2 == 0:
+#     print("it is a not prime number")
+#     break
+# else:
+#     print("it is a prime number")
+    
+
+
+
+# i = int(input("enter the number: "))
+
+# if i < 2:
+#     print("it is not a prime number")
+# else:
+#     divisor = 2
+#     is_prime = True
+
+#     while divisor * divisor <= i:
+#         if i % divisor == 0:
+#             is_prime = False
+#             break
+#         divisor += 1
+#     if is_prime:
+#         print("it is an prime number")
+#     else:
+#         print("not a prime number")
+
+# num = int(input("enter the number"))
+# i = 2
+# limit = int(num/2)
+
+# while i <= limit:
+#     if num % i == 0:
+#         print("it is not a prime number")
+#         break
+#     i = i +1
+# else:
+#     print("it is a prime number")
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     j = 1
+#     while j <= 5:
+#         print(i,j)
+#         j = j +1
+#     i=i+1
+     
+
+# n = 5
+
+# for i in range(1,6):
+#     print(i,"sheep")
+
+
+# i = [1,2,3,4,5,6,7,8,9,10]
+
+# for i in range(1,11):
+#     if i % 2 ==0:
+#         print(i)
+
+
+fruits = ["apple", "banana", "cherry", "date"]
+fruits_with_indices = [(index, fruit) for index, fruit in enumerate(fruits)]
+
+print(fruits_with_indices)
